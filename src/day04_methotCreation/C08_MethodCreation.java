@@ -1,4 +1,4 @@
-package day03_methotCreation;
+package day04_methotCreation;
 
 public class C08_MethodCreation {
     public static void main(String[] args) {

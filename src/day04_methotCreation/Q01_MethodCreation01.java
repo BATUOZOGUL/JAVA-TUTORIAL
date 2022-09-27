@@ -1,4 +1,4 @@
-package day03_methotCreation;
+package day04_methotCreation;
 
 import java.util.Scanner;
 

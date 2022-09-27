@@ -1,4 +1,4 @@
-package day03_methotCreation;
+package day04_methotCreation;
 
 import java.util.Scanner;
 
@@ -20,7 +20,11 @@ public class C03_MethodCreation {
 
     }
 
+    public static String yeni(String name){
+         name="batu";
 
+        return name;
+    }
 
 
 
