@@ -38,5 +38,7 @@ public class haftanınTaskiii {
         }
         System.out.println("yerevurmaSayisi = " + yerevurmaSayisi);
         System.out.println("topunToplamYolu = " + topunToplamYolu);
+
+
     }
 }
