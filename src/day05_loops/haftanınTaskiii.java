@@ -40,5 +40,6 @@ public class haftanınTaskiii {
         System.out.println("topunToplamYolu = " + topunToplamYolu);
 
 
+
     }
 }
