@@ -15,6 +15,11 @@ public class Q01_MethodCreation01 {
         Scanner scan = new Scanner(System.in);
         System.out.print("yapacaginiz dort islemi * + - / olarak seciniz :");
 
+
+
+
+
+
     }
 
 
