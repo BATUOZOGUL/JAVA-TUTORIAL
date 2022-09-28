@@ -7,6 +7,7 @@ public class Q21 {
         /* TASK : aşagıdaki şekli console'a yazdırınız
 
          *
+
          **
          **
          ***
