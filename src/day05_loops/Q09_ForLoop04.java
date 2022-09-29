@@ -11,7 +11,7 @@ public class Q09_ForLoop04 {
      Test Data:
      a
      Beklenen Çıktı:
-     a harfi sesli harfdir.
+     a harfi sesli harfdir.  aeiou
 
      Test Data:
      d
@@ -25,9 +25,41 @@ public class Q09_ForLoop04 {
      Yanlis karakter girdiniz!
 
  */
+
+    static String sesliHarfler = "aeiou";//static variabler heryerden ulasilabilir
+    static String sessizHarfler = "aqzswxdcrfvtgbyhnjmklip";//static variabler heryerden ulasilabilir
+
+    //static String harf;
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("kelime giriniz :");
+
+
+        try {
+            String   harf = scan.next().toLowerCase();
+            if (harf.length()==1){
+                // for (int i = 0; i <sesliHarfler.length() ; i++) { fazla oldugunu gormus olduk neden cunku loop gibi dolasma icini contains methodu yapiyor
+                if (sesliHarfler.contains(harf)){
+                    System.out.println(harf+ "  sesli harf tir");
+                    // break;
+                } else if (sessizHarfler.contains(harf)) {
+                    System.out.println(harf+ "  sessiz harf tir");
+                    // break;
+                }else{
+                    System.out.println("yanlis tek karakter girdiniz");
+                    // break;
+                }
+                //  }
+            }else System.out.println("Yanlis karakter girdiniz!");
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+
+
+
+        }
+
+
 
 
     }

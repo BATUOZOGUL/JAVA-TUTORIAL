@@ -1,8 +1,13 @@
-package day05_loops;
+package day07_nestedForLoopArrays;
 
 public class Q21 {
 
     public static void main(String[] args) {
+
+        int [][] arr = {  {1,2}, {3,4,5}, {5,6,7} };
+
+        int [] arr1 ={   1,2, 3,4,5, 5,6,7} ;
+
 
         /* TASK : aşagıdaki şekli console'a yazdırınız
 

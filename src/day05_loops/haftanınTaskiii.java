@@ -42,4 +42,5 @@ public class haftanınTaskiii {
 
 
     }
+    // https://github.com/BATUOZOGUL/JAVA-TUTORIAL
 }
