@@ -1,4 +1,4 @@
-BİR OKUL YÖNETİM PLATFORMU KODLAYINIZ.
+       BİR OKUL YÖNETİM PLATFORMU KODLAYINIZ.
 
 	1.	Bu programda, Öğrenci ve Öğretmen Kayıtları ile ilgili işlemler yapılabilmelidir.
 		Kayıtlarda şu bilgiler olabilmelidir.
@@ -33,7 +33,7 @@ BİR OKUL YÖNETİM PLATFORMU KODLAYINIZ.
 		Bunun yanında bir üst menüye dönme veya çıkış işlemleri de yapılabilmelidir.
 
 
-NOT: PROJEYİ YAPARKEN MÜMKÜN OLAN EN KISA KODLARI YAZMAK İÇİN NESNE YÖNELİMLİ
+ NOT: PROJEYİ YAPARKEN MÜMKÜN OLAN EN KISA KODLARI YAZMAK İÇİN NESNE YÖNELİMLİ
 PROGRAMLAMANIN
 BİZE SAĞLADIĞI İMKANLARI KULLANMAYA DİKKAT EDİNİZ.
 
