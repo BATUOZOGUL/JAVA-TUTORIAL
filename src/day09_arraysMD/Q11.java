@@ -1,4 +1,4 @@
-package day08_arrays;
+package day09_arraysMD;
 
 public class Q11 {
 
@@ -9,9 +9,6 @@ public class Q11 {
          */
         int arr1[][] = {{1, 2}, {3, 4, 5}, {6}};
         int arr2[][] = {{7, 8, 9}, {10, 11}, {12}};
-
-
-
 
 
 
