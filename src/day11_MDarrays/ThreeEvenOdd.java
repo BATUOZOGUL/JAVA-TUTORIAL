@@ -1,4 +1,4 @@
-package day10_MDArrays;
+package day11_MDarrays;
 
 import java.util.Scanner;
 
@@ -36,16 +36,36 @@ public class ThreeEvenOdd {
         System.out.print("Bir sayı dizisi giriniz: ");
         String str = scanner.nextLine();
 
+        String[] diziStr=str.trim().split("");
+        int [] dizi=new int[diziStr.length];
 
+        for (int i = 0; i < dizi.length ; i++) {
+            dizi[i]=Integer.parseInt(diziStr[i]);
+        }
 
-
-
-
-
-
-
-
+        boolean sonuc=threeEvenOrOdd(dizi);
+        System.out.println("sonuc = " + sonuc);
 
     }
+
+    private static boolean threeEvenOrOdd(int[] arr) {
+        int sayacCift=0;
+        int sayacTek=0;
+
+        for (int i = 0; i < arr.length ; i++) {
+            if (arr[i] % 2==0){
+                sayacCift++;
+            }
+            if (arr[i] % 2==1){
+                sayacTek++;
+            }
+
+            if (sayacCift==3 || sayacTek==3){
+                return true;
+            }
+        }
+        return false;
+    }
+
 
 }

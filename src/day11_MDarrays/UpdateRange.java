@@ -1,4 +1,4 @@
-package day10_MDArrays;
+package day11_MDarrays;
 
 import java.util.Arrays;
 
@@ -50,7 +50,18 @@ public class UpdateRange {
         int min = 10;
         int max = 20;
 
+       int[] dizi=uRange(array,min,max);
+        System.out.println("Arrays.toString(dizi) = " + Arrays.toString(dizi));
 
+    }
+
+    private static int[]  uRange(int[] array, int min, int max) {
+        for (int i = 0; i <array.length ; i++) {
+            if (array[i]>min &&     array[i]<max ){
+                array[i]=-1;
+            }
+        }
+        return array;
     }
 
 }
