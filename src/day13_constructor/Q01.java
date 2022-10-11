@@ -1,4 +1,4 @@
-package day12_lists;
+package day13_constructor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,15 +15,13 @@ public class Q01 {
          * OUTPUT : [Veli,Omer]
          */
 
-        ArrayList<String> isimler = new ArrayList<String>(Arrays.asList("Ali", "Veli", "Ayse", "Fatma", "Omer"));
+        ArrayList<String> isimler = new ArrayList<>(Arrays.asList("Ali", "Veli", "Ayse", "Fatma", "Omer"));
 //asList()--> String olarak verilen ifadelerin hepsini ArrayList!'in içine atar.
 // Yani list oluşturur. tek tek add demek zorunda kalmayiz
-
-            }
-        }
+        ArrayList<String> aOlmayanIsimler = new ArrayList<>();//a olmayan ismlerin atanacagı bos list create edildi
 
 
 
+    }
 
-
-
+}
