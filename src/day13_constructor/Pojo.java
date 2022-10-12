@@ -23,7 +23,7 @@ public class Pojo {//icinde instance lear tanimladigimiz yer
     public String toString() {
         return " "+
                  name  +" "
-                + adress   +
+                + adress +" "  +
                   yas
                 ;
     }

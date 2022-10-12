@@ -4,7 +4,7 @@ public class Kisi implements OkulYonetimi{
 
     private  String adSoyad;
     private String kimlikNo;
-     private int yas;
+    private int yas;
     public Kisi(){
 
     }

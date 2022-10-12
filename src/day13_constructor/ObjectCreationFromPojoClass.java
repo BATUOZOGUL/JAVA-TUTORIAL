@@ -11,9 +11,13 @@ public class ObjectCreationFromPojoClass {
         obj.yas=25;
         System.out.println("obj = " + obj);
 
-        Pojo objPmli=new Pojo("batu","hollanda",30);
+        Pojo objPmli=new Pojo
+                ("batu","hollanda",30);
 
         System.out.println("objPmli = " + objPmli);
+
+
+
 
     }
 }

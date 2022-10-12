@@ -1,9 +1,10 @@
-package day13_constructor;
+package day14_constructor;
 public class Z {
     String isim;
     String soyisim;
     int numara;
     boolean gercekMi;
+
     public Z(String ism, String soyism, int no, boolean grc) {
         isim=ism;
         soyisim=soyism;

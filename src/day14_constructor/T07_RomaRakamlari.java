@@ -1,4 +1,4 @@
-package day13_constructor;
+package day14_constructor;
 
 public class T07_RomaRakamlari {
     /*  TASK :
@@ -17,10 +17,22 @@ public class T07_RomaRakamlari {
     public static void main(String[] args) {
 
 
-     //System.out.println(convertRomans("MCMXLV"));
-}
+        System.out.println(convertRomans("MCMXLV"));
 
+    }
 
+    static int convertRomans(String s) {
+        int sum = 0;
+        for (int i = 0; i < s.length() - 1; i++) {
+            if (valueOf(s.charAt(i)) < valueOf(s.charAt(i + 1))) {
+                sum += valueOf(s.charAt(i + 1)) - valueOf(s.charAt(i));
+                s = s.replace(s.substring(i, i + 2), "");
+                i--;
+            }
+        }
+         //TODO burda oyle bir kod yazin ki siralasin artan
+        return sum;
+    }
 
 
     // assign the values for each character of Roman numerals

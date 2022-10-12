@@ -1,4 +1,4 @@
-package day13_constructor;
+package day14_constructor;
 public class Volvo {
     String marka="Volvo";
     String mensei="Isvec";

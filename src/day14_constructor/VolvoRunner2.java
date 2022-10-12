@@ -1,4 +1,4 @@
-package day13_constructor;
+package day14_constructor;
 public class VolvoRunner2 {
     public static void main(String[] args) {
         // Her obje obje olusturdugumuzda model, yakit gibi degerleri tek tek atama
