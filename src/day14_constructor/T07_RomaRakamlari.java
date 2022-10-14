@@ -10,7 +10,7 @@ public class T07_RomaRakamlari {
 		   	Output: DCCCV   805
 
 
-		   		M + [C M] + [X L] + V   ---->   1945
+		   		M + [C- M] + [X- L] + V   ---->   1945
 		   		The chars in the brackets are in ascending order.
 		   		 Parantez içindeki karakterler artan sıradadır (C-100, M-1000) ---> [C M]=900
 		*/
@@ -29,8 +29,14 @@ public class T07_RomaRakamlari {
                 s = s.replace(s.substring(i, i + 2), "");
                 i--;
             }
+        }	/* After removing the annoying characters(ascending numerals),
+		 we have the regular characters which are in descending order.
+		   With the for loop we add the values to our 'sum' container. */
+        for (int i = 0; i <s.length() ; i++) {
+            sum+=valueOf(s.charAt(i));
         }
-         //TODO burda oyle bir kod yazin ki siralasin artan
+
+
         return sum;
     }
 

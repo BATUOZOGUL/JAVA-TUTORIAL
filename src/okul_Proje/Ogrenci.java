@@ -2,8 +2,11 @@ package okul_Proje;
 
 public class Ogrenci extends Kisi{
 
+
     private int ogrenciNo;
     private String sinif;
+
+
     public Ogrenci(){
 
     }

@@ -1,12 +1,16 @@
-package day15_OOP_project_staticKeyword_passByValue;
+package day15_16_OOP_project_staticKeyword_passByValue;
 
-import static day15_OOP_project_staticKeyword_passByValue.Register.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import static day15_16_OOP_project_staticKeyword_passByValue.Register.*;
 
 public class EntryPanel {
 
     public static void panel(){
 
-        ///TODO
+        ///TODO user dan yeni bir obj create edip liste atamasini yapip uc ve ya
+        // daha fzala user listte tutup bunlari listeleyin
         boolean exit =true;
         while (exit) {
             System.out.println("lutfen \n 1:register al\n2:printHappyUsers\n3:kişileri listele\n 4cıkıs");
@@ -15,7 +19,8 @@ public class EntryPanel {
             int islem = scan.nextInt();
             switch (islem) {
                 case 1:
-                    register();
+                 register();
+                scan.nextLine();
                     break;
                 case 2:
                     printHappyUsers(users);
@@ -33,5 +38,38 @@ public class EntryPanel {
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
