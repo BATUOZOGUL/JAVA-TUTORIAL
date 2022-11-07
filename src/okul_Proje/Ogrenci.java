@@ -11,6 +11,7 @@ public class Ogrenci extends Kisi{
 
     }
     public Ogrenci(int ogrenciNo, String sinif) {
+        super();
         this.ogrenciNo = ogrenciNo;
         this.sinif = sinif;
     }

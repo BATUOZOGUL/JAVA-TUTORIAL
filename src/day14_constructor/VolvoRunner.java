@@ -1,5 +1,5 @@
 package day14_constructor;
-public class VolvoRunner {
+public class VolvoRunner  {
     public static void main(String[] args) {
         Volvo arb1= new Volvo();
         System.out.println(arb1.marka); // Volvo

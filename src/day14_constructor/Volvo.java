@@ -1,5 +1,5 @@
 package day14_constructor;
-public class Volvo {
+public class Volvo{
     String marka="Volvo";
     String mensei="Isvec";
     String model;

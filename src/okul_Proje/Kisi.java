@@ -1,10 +1,11 @@
 package okul_Proje;
 
-public class Kisi implements OkulYonetimi{
+public class Kisi implements OkulYonetimi {
 
-    private  String adSoyad;
+    private String adSoyad;
     private String kimlikNo;
     private int yas;
+
     public Kisi(){
 
     }
@@ -75,4 +76,6 @@ public class Kisi implements OkulYonetimi{
     public void silme() {
 
     }
+
+
 }
