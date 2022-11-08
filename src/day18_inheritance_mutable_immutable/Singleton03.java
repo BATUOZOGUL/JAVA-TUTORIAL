@@ -1,8 +1,8 @@
-package day17_Objects_Classes;
+package day18_inheritance_mutable_immutable;
 
 public class Singleton03 {
     /*
-    ingleton sınıfı nedir?
+    Singleton sınıfı nedir?
 
 Adından da anlaşılacağı gibi, bir sınıfın nesne sayısını bir ile sınırlandırıyorsa, bir sınıfın tekil olduğu söylenir.
 
