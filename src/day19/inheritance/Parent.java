@@ -1,4 +1,4 @@
-package day18_inheritance_mutable_immutable.inheritance;
+package day19.inheritance;
 
 public class Parent {
     protected Parent() {

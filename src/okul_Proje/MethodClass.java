@@ -6,10 +6,13 @@ import java.util.Scanner;
 public class MethodClass extends Kisi {
     static Scanner scan = new Scanner(System.in);
     String branslar[] = {"Kimya", "Fizik", "Biyoloji", "Matematik", "Geometri"};
+
     //String siniflar[] = {"11A", "11B", "12A", "12B", "10A", "10B", "9A", "9B", "8A", "8B", "7A", "7B", "6A", "5A", "4A", "3A", "2A", "1A"};
     List<Kisi> ogretmen = new ArrayList<>();
     List<Kisi> ogrenci = new ArrayList<>();
     static String kisi;
+
+
     @Override
     public  void ekleme() {//try catch calis{
         System.out.println("****** " + kisi + " ekleme sayfasina hosgelmissen" + "*********");
@@ -23,6 +26,7 @@ public class MethodClass extends Kisi {
             kimlikNo = kimlikNo.replace(" ", "");//bosluklu girerse diye
             if (kimlikNo.length() != 5) {//2
                 throw new StringIndexOutOfBoundsException("Hatali veya eksik tuslama yaptiniz");
+
             } else {//2
                 if (kisi.equalsIgnoreCase("Ogrenci")) {//3
                     System.out.println("yas gir");
@@ -98,8 +102,8 @@ public class MethodClass extends Kisi {
                     }
                 }
             }
-        }catch (Exception e) {
-            System.out.println(e.getMessage());
+        }catch (Exception a) {
+            System.out.println(a.getMessage());
         }
     }
     public  void arama() {

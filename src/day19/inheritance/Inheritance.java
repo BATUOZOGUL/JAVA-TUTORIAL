@@ -1,4 +1,4 @@
-package day18_inheritance_mutable_immutable.inheritance;
+package day19.inheritance;
 
 public class Inheritance {
 /*
@@ -21,5 +21,11 @@ Kalıtım, OOP'nin (Nesneye Yönelik Programlama) önemli bir ayağıdır. Java'
 //    Sub Class/Child Class:
 //    Reusability
 
+    void topla(int a){
+
+    }
+    void topla (int a ,int b){
+
+    }
 
 }

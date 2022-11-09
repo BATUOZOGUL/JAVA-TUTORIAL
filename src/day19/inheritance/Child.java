@@ -1,6 +1,7 @@
-package day18_inheritance_mutable_immutable.inheritance;
+package day19.inheritance;
 
 public class Child extends Parent{
+
     public Child() {
        // super();
         System.out.println("Child Cons Calisti");
@@ -13,7 +14,7 @@ public class Child extends Parent{
 
          */
     public static void main(String[] args) {
-   new Child();
+        new Child();
 
     }
 }
