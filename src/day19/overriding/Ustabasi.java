@@ -1,5 +1,9 @@
 package day19.overriding;
+/*
+am after moon
+pm oglen 12 den sonraki 12 saatlik dilim
 
+ */
 public class Ustabasi extends Isci{
     public String statu="Ustabasi";
     public String haklar="Ustabasi haftada birgun ekstra tatil hakkina sahiptir";
