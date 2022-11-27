@@ -1,8 +1,11 @@
-package day21;
-
 import javax.swing.*;
 
 public class JOption_Trying {
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     public static void main(String[] args) {
 
 
